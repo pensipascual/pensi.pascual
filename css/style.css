@@ -15,7 +15,7 @@ nav {
   padding: 1rem;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #ccc;
+  border-bottom: none;
 }
 
 nav a {
