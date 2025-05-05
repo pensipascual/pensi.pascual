@@ -1,8 +1,15 @@
+/* Importar font (aquesta és una font de Google Fonts que es pot usar de manera similar a Suisse BP) */
+@import url('https://fonts.googleapis.com/css2?family=Suisse+Intl:wght@300&display=swap'); /* Estil Light amb pes 300 */
+
+/* Aplica la font a tot el cos de la pàgina */
 body {
-  font-family: sans-serif;
+  font-family: 'Suisse Intl', sans-serif;
   margin: 0;
-  background: #f4f4f4;
+  background: white;
+  font-weight: 300; /* Light */
+  font-size: 14px; /* Mida més petita */
 }
+
 nav {
   background: white;
   padding: 1rem;
@@ -10,26 +17,32 @@ nav {
   justify-content: space-between;
   border-bottom: 1px solid #ccc;
 }
+
 nav a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  font-size: 16px; /* Mida per a l'enllaç de la nav */
 }
+
 .galeria {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
   padding: 2rem;
 }
+
 .galeria img {
   width: 100%;
   display: block;
 }
+
 .projecte, .info {
   padding: 2rem;
   max-width: 800px;
   margin: auto;
 }
+
 .projecte img {
   max-width: 100%;
   margin-top: 1rem;
